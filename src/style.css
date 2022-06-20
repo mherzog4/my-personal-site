@@ -80,7 +80,7 @@ p {
   height: 55px;
   border-radius: 30px;
   text-align: center;
-  background-color: coral;
+  background-color: #0db7ed;
   font-weight: 100;
   padding-top: 5px;
   margin-top: 20px;
@@ -164,7 +164,7 @@ hr {
 
 .project-link {
   text-decoration: none;
-  color: #ef744b;
+  color: #000000
 }
 
 a {
