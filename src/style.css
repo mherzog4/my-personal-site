@@ -16,8 +16,10 @@ section {
 }
 
 footer {
-  height: 500px;
   background-color: black;
+  color: white;
+  padding: 80px;
+  text-align: center;
 }
 
 nav {
@@ -130,6 +132,7 @@ button:active {
   width: 300px;
   height: 500px;
   border: solid black;
+  margin: 10px;
 }
 
 .project-container {
@@ -141,4 +144,19 @@ button:active {
   margin-top: 25px;
   width: 250px;
   border-radius: 125px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #ef744b;
+}
+
+a {
+  text-decoration: none;
+  color: white;
 }

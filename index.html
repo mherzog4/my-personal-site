@@ -15,16 +15,16 @@
         <nav>
             <img class="logo" src="src/images/My project (1).png" alt="logo"/>
             <ul>
-                <li>About me</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div class="hero-area">
             <div class="hero-text">  
                 <h1>Matt Herzog</h1>
                 <p>Software Engineer Student at Flatiron School</p>
-            <div class="button">About Me</div>
+            <div class="button"><a href="#about-me">About me</a></div>
         </div>
         <div class="socials">
            <div> <a href="https://www.linkedin.com/in/matthewherzog3/" target="_blank" class="social"><svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg></a></div>
@@ -33,7 +33,7 @@
         </div>
     </div>
     </section>
-    <section class="sub-section">
+    <section class="sub-section" id="about-me">
         <div class="information">
             <h2>About Me</h2>
             <p>Hey there! My name is Matt Herzog. I am a software engineer student at Flatiron School.</p>
@@ -42,7 +42,7 @@
             <img class="headshot" src="src/images/IMG_5587.JPG" alt="Matt Herzog headshot"/>
         </div>
     </section>
-    <section class="sub-section-alternative">
+    <section class="sub-section-alternative" id="projects">
         <h2>Projects</h2>
         <div class="project-container">
             <div class="project-card">
@@ -50,22 +50,21 @@
             <h3>Calculator App</h3>
             <p class="subtext">Utilized HTML, CSS, and Vanilla JavaScript to enable the application to complete the requested math expressions.</p>
             <hr/>
-            <p class="subtext">View here</p>
+            <p class="subtext"><a class="project-link" href="https://mherzog4.github.io/Calculator-App/" alt="Live demo for Calculator">View here</a></p>
         </div>
             <div class="project-card">
                 <img class="project-image" src="src/images/Screen Shot 2022-06-20 at 2.28.48 AM.png" alt="ToDo List application">
-                <h3>
-                    
-                    ToDo List App</h3>
+                <h3>ToDo List App</h3>
             <p class="subtext">Project focused on JavaScript fundamentals while also utilizing HTML & CSS.</p>
             <hr/>
-            <p class="subtext">View here</p>
+            <p class="subtext"><a class="project-link" href="https://mherzog4.github.io/ToDoList/" alt="Live demo for ToDo List">View here</a></p>
             </div>
         </div>
     </section>
-    <footer></footer>
-
-    
+    <footer id="contact">
+    <h2>Contact me</h2>
+    <p>matt@mattherzog.me</p>
+</footer>
 <script src="src/script.js"></script>
 </body>
 </html>
