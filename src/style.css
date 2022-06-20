@@ -35,6 +35,10 @@ ul {
   font-size: 30px;
 }
 
+ul.show {
+  display: block;
+}
+
 li {
 text-decoration: none;
 }
