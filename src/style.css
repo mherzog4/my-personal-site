@@ -1,12 +1,11 @@
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
 }
 
 
 section {
-  height: 500px;
   background-color: white;
-  border: solid black 1px;
 }
 
 .hero {
@@ -43,14 +42,53 @@ h1 {
   margin: 0;
 }
 
+p {
+  margin: 0;
+  font-weight: 100;
+}
+
+.hero-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .hero-text {
   margin-left: 80px;
+  margin-bottom: 200px;
 }
 
 .button {
   width: 200px;
-  height: 60px;
+  height: 55px;
   border-radius: 30px;
   text-align: center;
   background-color: coral;
+  font-weight: 100;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #ef744b;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #A9A9A9;
+  color: #808080;
+}
+
+.socials {
+  padding-bottom: 200px;
+}
+
+.logo {
+  height: 0px;
+  margin: 30px;
+}
+
+.social {
+  margin: 20px;
 }
