@@ -1,3 +1,8 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
 section {
   height: 500px;
   background-color: white;
@@ -35,9 +40,17 @@ text-decoration: none;
 
 h1 {
   font-size: 90px;
+  margin: 0;
 }
 
 .hero-text {
   margin-left: 80px;
 }
 
+.button {
+  width: 200px;
+  height: 60px;
+  border-radius: 30px;
+  text-align: center;
+  background-color: coral;
+}
