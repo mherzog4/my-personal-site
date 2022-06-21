@@ -2,8 +2,6 @@ body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
 }
-
-
 section {
   background-color: white;
 }
@@ -18,8 +16,8 @@ section {
 footer {
   background-color: black;
   color: white;
-  padding: 80px;
   text-align: center;
+  padding: 80px;
 }
 
 nav {
@@ -35,12 +33,8 @@ ul {
   font-size: 30px;
 }
 
-ul.show {
-  display: block;
-}
-
 li {
-text-decoration: none;
+  text-decoration: none;
 }
 
 h1 {
@@ -49,18 +43,18 @@ h1 {
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 p {
   margin: 0;
-  font-weight: 100;
-  font-size: 60px;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .subtext {
   font-size: 15px;
-  font-weight: 300px;
+  font-weight: 300;
 }
 
 .hero-area {
@@ -79,19 +73,20 @@ p {
   width: 200px;
   height: 55px;
   border-radius: 30px;
-  text-align: center;
   background-color: #0db7ed;
-  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
   padding-top: 5px;
   margin-top: 20px;
 }
 
 .button:hover {
-  background-color: #ef744b;
+  background-color: #e01563;
   cursor: pointer;
 }
 
-button:active {
+.button:active {
   background-color: #A9A9A9;
   color: #808080;
 }
@@ -101,10 +96,9 @@ button:active {
 }
 
 .logo {
-  height: 0px;
+  height: 80px;
   margin: 30px;
 }
-
 .social {
   margin: 20px;
 }
@@ -125,9 +119,10 @@ button:active {
 .headshot {
   width: 300px;
   border-radius: 150px;
+  margin-left: 80px;
 }
 
-.headshot.container {
+.headshot-container {
   display: flex;
   align-items: center;
 }
@@ -135,7 +130,7 @@ button:active {
 .project-card {
   width: 300px;
   height: 500px;
-  border: solid black;
+  box-shadow: 5px 5px 20px rgb(197, 195, 195);
   margin: 10px;
 }
 
@@ -164,7 +159,8 @@ hr {
 
 .project-link {
   text-decoration: none;
-  color: #000000
+  color: black;
+
 }
 
 a {
