@@ -210,3 +210,8 @@ a {
       display: none;
   }
 }
+
+@media (max-width: 800px) {
+  html,body { overflow-x: hidden;
+  }
+}
