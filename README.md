@@ -6,8 +6,10 @@ utilzied HTML, CSS, and vanilla JS to code this light-weight website.
 
 Applied google fonts API for typography throughout the website.
 
-Todo:
+Used Calendly API to have booking function.
 
-- make mobile responsive
-- make cards the same sizing
-- put in resume
+Used Typeform API to have message recieve function for people to get in contact.
+
+Todo:
+-continue to add projects
+
